@@ -1,0 +1,63 @@
+<form>
+  <input required type="text" name="first-name" id="first-name" class="text-input" />
+  <label for="first-name">First Name</label>
+
+  <input type="text" name="favorite-color" id="favorite-color" class="text-input"  />
+  <label for="favorite-color">What is your favorite color?</label>
+
+  <input type="text" name="favorite-food" id="favorite-food" class="text-input" />
+  <label for="favorite-food">What is your favorite food?</label>
+
+  <input placeholder="Starbucks" value="Starbucks" type="text" name="starbucks" id="starbucks" class="text-input" />
+  <label for="starbucks">What is your favorite coffee company?</label>
+<br />
+
+  <select name="state" id="state">
+    <option value="state-washington">Washington</option>
+    <option value="state-oregon">Oregon</option>
+    <option value="state-missouri">Missouri</option>
+  </select>
+  <label for="state">Where do you live?</label>
+<br />
+
+  <textarea rows="25" cols="50" name="comments" id="comments">This is a textarea...</textarea>
+  <label for="comments">Write me a message!</label>
+
+<br />
+  <fieldset>
+    <input type="radio" name="handedness" value="right" id="handedness-right" checked />
+    <label for="handedness-right">Right-handed</label>
+    <input type="radio" name="handedness" value="left" id="handedness-left" />
+    <label for="handedness-left">Left-handed</label>
+    <legend>What hand do you write with?</legend>
+  </fieldset>
+<br />
+  <fieldset>
+    <input type="checkbox" name="toppings[]" value="cheddar" id="topping-cheese"/>
+    <label for="topping-cheese">Cheese</label>
+    <input type="checkbox" name="toppings[]" value="pineapple" id="topping-pineapple" disabled />
+    <label for="topping-pineapple">Pineapple</label>
+    <legend>What do you want on your pizza?</legend>
+  </fieldset>
+<br />
+
+  <input type="password" name="dog-name" id="dog-name" required />
+  <label for="dog-name">What is your dog's name</label>
+
+  <input type="number" min="1" max="10" name="rating" id="rating">
+  <label for="rating">Rate this form!</label>
+
+  <input type="url" name="website" id="website" />
+  <label for="website">What is your favorite website?</label>
+
+  <input type="range" max="100" min="0" name="volume" id="volume" value="0" />
+  <label for="volume">What is the volume you prefer?</label>
+
+  <input type="email" name="email" id="email" />
+  <label for="email">What is your email address?</label>
+
+  <input type="date" name="birthday" id="birthday" />
+  <label for="birthday">What is your birthday?</label>
+
+  <input type="submit" name="submit" value="Answer!" />
+</form>
